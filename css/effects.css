@@ -1,0 +1,31 @@
+.headingg:after
+{
+    content: '';
+	display: block;
+	width:60px;
+    border-bottom: 4px solid var(--danger);
+    margin-top: 4px;
+}
+
+.navbar-expand-md > .wrapcancel{
+    flex-wrap:wrap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.typpadding{
+padding:30px;
+}
+
+.magn{
+    transition:0.5s;
+}
+
+.magn:hover{
+    display:block;
+    width:120%;
+    height:120%;
+    font-size:120%;
+}
