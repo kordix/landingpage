@@ -2,3 +2,49 @@
     font-size:20px;
     text-align:center;
 }
+
+.procrow i{
+  font-size:4rem;
+  margin-left:60px;
+  margin-right:30px;
+}
+
+.proc{
+  font-size:2rem;
+  font-weight:500;
+}
+
+.proccaption{
+font-size:20px;
+text-align:center;
+margin-bottom:5px;
+}
+
+.procrow .caption2{
+  display:block;
+  width:280px;
+  margin:auto;
+  margin-top:0px;
+  padding-top:0px;
+  text-align:justify;
+}
+
+.breaktext{
+  text-align:center;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.tp3 i{
+  margin-right:0.7rem;
+}
+
+.m7{
+  margin-top:0.7rem;
+}
+
+.col-custom-1{
+  flex: 0 0 1.16666%;
+  max-width: 1.16666%;
+  align-items:center;
+}
