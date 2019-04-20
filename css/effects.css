@@ -1,9 +1,10 @@
+
 .headingg:after
 {
     content: '';
 	display: block;
-	width:60px;
-    border-bottom: 4px solid var(--danger);
+	width:300px;
+    border-bottom: 2px solid var(--danger);
     margin-top: 4px;
 }
 
@@ -28,4 +29,30 @@ padding:30px;
     width:120%;
     height:120%;
     font-size:120%;
+}
+
+.fix-start{
+  position:absolute;
+  margin-top:10px;
+  right:220px;
+}
+
+.fix-fix{
+  position:fixed;
+  top:20px;
+  right:220px;
+}
+
+.b-dot{
+    border:1.5px dotted;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position:absolute;
+  left:20px;
+  border-top: 20px solid #259CA7;
 }
